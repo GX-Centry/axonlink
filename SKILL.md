@@ -1,7 +1,7 @@
 ---
 name: axonlink
 description: Manually replicate an existing local workflow on a user-authorized remote computer through Tailscale CLI and Tailscale SSH. Use only when the user explicitly asks for remote execution, remote workflow replication, or moving an agent-owned workflow to another named machine.
-when_to_use: Trigger only through direct user invocation such as /axonlink, "远控这台机器", "把这个流程复制到另一台电脑", "在远端机器复刻当前工作流", or "用 Tailscale SSH 到目标机器执行". Never use automatically for ordinary build, test, deploy, debug, file editing, or environment setup.
+when_to_use: Trigger only through direct user invocation such as /axonlink, "Remote control of this machine", "Copy this process to another computer", "Replicating the current workflow on a remote machine", or "Use Tailscale SSH to the target machine to execute". Never use automatically for ordinary build, test, deploy, debug, file editing, or environment setup.
 argument-hint: "<user@target-or-target> <workflow-goal>"
 arguments:
   - target
