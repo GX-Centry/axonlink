@@ -1,20 +1,61 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="64" y="64" width="384" height="384" rx="88" fill="white"/>
-  <path d="M252 251 C210 218 174 199 130 211" stroke="#15191F" stroke-width="22" stroke-linecap="round"/>
-  <path d="M259 250 C302 211 342 195 376 144" stroke="#15191F" stroke-width="22" stroke-linecap="round"/>
-  <path d="M252 265 C207 294 178 327 157 374" stroke="#15191F" stroke-width="22" stroke-linecap="round"/>
-  <path d="M269 265 C303 311 334 344 382 346" stroke="#15191F" stroke-width="22" stroke-linecap="round"/>
-  <path d="M183 201 C181 174 173 150 166 124" stroke="#15191F" stroke-width="22" stroke-linecap="round"/>
-  <circle cx="256" cy="256" r="47" fill="#15191F"/>
-  <circle cx="256" cy="256" r="26" fill="#2F6BFF"/>
-  <circle cx="121" cy="214" r="30" fill="#15191F"/>
-  <circle cx="121" cy="214" r="17" fill="#2F6BFF"/>
-  <circle cx="376" cy="144" r="30" fill="#15191F"/>
-  <circle cx="376" cy="144" r="17" fill="#2F6BFF"/>
-  <circle cx="157" cy="374" r="30" fill="#15191F"/>
-  <circle cx="157" cy="374" r="17" fill="#2F6BFF"/>
-  <circle cx="382" cy="346" r="30" fill="#15191F"/>
-  <circle cx="382" cy="346" r="17" fill="#2F6BFF"/>
-  <circle cx="166" cy="124" r="30" fill="#15191F"/>
-  <circle cx="166" cy="124" r="17" fill="#2F6BFF"/>
+<svg width="1254" height="1254" viewBox="0 0 1254 1254" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1254" height="1254" fill="#030E1F"/>
+  <rect x="36" y="36" width="1182" height="1182" rx="170" fill="white"/>
+
+  <!-- Organic neuron body and branches -->
+  <path d="M627 627
+           C 560 618, 521 577, 509 531
+           C 494 472, 443 421, 404 259"
+        stroke="#0B1220" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M627 627
+           C 552 594, 498 536, 430 461
+           C 364 421, 292 430, 188 454"
+        stroke="#0B1220" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M627 627
+           C 672 590, 720 548, 760 480
+           C 805 444, 845 390, 921 284"
+        stroke="#0B1220" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M627 627
+           C 687 674, 720 729, 747 793
+           C 780 850, 806 913, 821 997"
+        stroke="#0B1220" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M627 627
+           C 571 671, 524 725, 469 779
+           C 426 841, 386 900, 353 991"
+        stroke="#0B1220" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M702 742
+           C 754 788, 807 810, 870 811
+           C 915 813, 957 824, 982 836"
+        stroke="#0B1220" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M531 731
+           C 482 741, 444 770, 400 796
+           C 343 809, 301 840, 257 880"
+        stroke="#0B1220" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M760 480
+           C 809 452, 853 446, 899 452"
+        stroke="#0B1220" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central hub -->
+  <circle cx="627" cy="627" r="96" fill="#0B1220"/>
+  <circle cx="627" cy="627" r="72" fill="white"/>
+  <circle cx="627" cy="627" r="52" fill="#2F6BFF"/>
+
+  <!-- Peripheral nodes -->
+  <circle cx="404" cy="259" r="42" fill="#0B1220"/>
+  <circle cx="404" cy="259" r="24" fill="#2F6BFF"/>
+
+  <circle cx="188" cy="454" r="42" fill="#0B1220"/>
+  <circle cx="188" cy="454" r="24" fill="#2F6BFF"/>
+
+  <circle cx="921" cy="284" r="42" fill="#0B1220"/>
+  <circle cx="921" cy="284" r="24" fill="#2F6BFF"/>
+
+  <circle cx="353" cy="991" r="42" fill="#0B1220"/>
+  <circle cx="353" cy="991" r="24" fill="#2F6BFF"/>
+
+  <circle cx="821" cy="997" r="42" fill="#0B1220"/>
+  <circle cx="821" cy="997" r="24" fill="#2F6BFF"/>
+
+  <circle cx="982" cy="836" r="42" fill="#0B1220"/>
+  <circle cx="982" cy="836" r="24" fill="#2F6BFF"/>
 </svg>
