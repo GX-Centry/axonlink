@@ -1,0 +1,102 @@
+{
+  "name": "axonlink",
+  "version": "0.1.0",
+  "created_at": "2026-05-24T16:19:13.964380+00:00",
+  "target": "Claude Code skill",
+  "backend_cli": "tailscale",
+  "entrypoint": "SKILL.md",
+  "manual_invocation": true,
+  "safety_posture": "authorized remote workflow replication only",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "313b6bfa4a6a491f351850151c92fdaef04cda307086ddbe64f14280301ed07d",
+      "bytes": 113
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "064320dfec472f36f0e137755e837f6c3e8fa1c6e4ca3d942a658db53b2a007f",
+      "bytes": 548
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "050e739b72a0b9c80e2d1fc618d8ec32459cbc632a7c496980cac86b22d37a15",
+      "bytes": 1158
+    },
+    {
+      "path": "README.md",
+      "sha256": "8025c08968fa5779d6533e4a5742f86e01a82d5dcf4c0d18152381a1573c794a",
+      "bytes": 8767
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "06daacab8f4ff4f4a5d5bf3dc81dd16cbd8d02029b23caa583cef617d4033890",
+      "bytes": 926
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "82cd140d35cf3c956625035101ac991eb1f650dda1fccffe8f515dc671c6bf4d",
+      "bytes": 6625
+    },
+    {
+      "path": "assets/icon.png",
+      "sha256": "fa288c89c41595ece1762c270fdd994c3b309704ff80a31e20860214c74abc0c",
+      "bytes": 867794
+    },
+    {
+      "path": "assets/icon.svg",
+      "sha256": "036f6d283bba33a52107ef40303ef763c8dfdf8c15273acf067745890a31a02b",
+      "bytes": 1331
+    },
+    {
+      "path": "examples/invocation.md",
+      "sha256": "2043bf3c02128f755dc9593927ae224e6717bf2d33bf58a37562f5954cc7d532",
+      "bytes": 618
+    },
+    {
+      "path": "install.sh",
+      "sha256": "654bc6417b822706826446087b5de4e5a62bb8bec45a7f624b80015eef4e6963",
+      "bytes": 332
+    },
+    {
+      "path": "references/memory-condensation.md",
+      "sha256": "b48698b9c16c04b660d677c0740e506988874a79f9a0bd5b6191593576ae5e7c",
+      "bytes": 1389
+    },
+    {
+      "path": "references/safety-policy.md",
+      "sha256": "d9af229d7e4657fa9fef9935a3a8ef86cb2b8297a718dd6508e188e887d4c71d",
+      "bytes": 2507
+    },
+    {
+      "path": "references/tailscale-ops.md",
+      "sha256": "3f410b002db123ec1272fdd4f19916b366c927de622cf7c0c604ee0946cf1022",
+      "bytes": 2146
+    },
+    {
+      "path": "scripts/check-tailscale.sh",
+      "sha256": "17ce9ce7d703c64189cb0ae02257600b05a857a74c2f28fb176243fd044e1494",
+      "bytes": 1463
+    },
+    {
+      "path": "scripts/classify-command.py",
+      "sha256": "99bd7c4f5057731a1dc595e94a6cf30abc7d3e34f8e9aecbedcb32a0f7582c80",
+      "bytes": 2705
+    },
+    {
+      "path": "scripts/resolve-target.py",
+      "sha256": "bb60bedcbde1aa2c150d87aadc6dae61a00f36009c9a587b82888ae946056026",
+      "bytes": 2682
+    },
+    {
+      "path": "templates/remote-run-report.md",
+      "sha256": "467fbea58c9dd0f6c113161cea29aab0f61312a0d8239413ac93b9b0bb3d45ff",
+      "bytes": 648
+    },
+    {
+      "path": "templates/workflow-recipe.md",
+      "sha256": "c5257c967c9a0a27ce7cc12cf726cb09037869fcfb9faf84eacd665431d21c1a",
+      "bytes": 996
+    }
+  ]
+}
