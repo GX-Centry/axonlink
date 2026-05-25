@@ -12,12 +12,6 @@
 /axonlink alice@linux-gpu "move the data preprocessing workflow to the GPU node"
 ```
 
-## Chinese
-
-```text
-/axonlink devbox "把本机已经跑通的构建和测试流程复刻到远端机器"
-```
-
 ## Expected first response
 
 Claude should not immediately run remote commands. It should restate:
