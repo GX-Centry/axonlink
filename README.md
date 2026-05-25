@@ -91,7 +91,7 @@ axonlink/
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/<your-org-or-user>/axonlink.git ~/.claude/skills/axonlink
+git clone https://github.com/GX-Centry/axonlink.git ~/.claude/skills/axonlink
 ```
 
 Or from a local checkout:
@@ -104,7 +104,7 @@ Or from a local checkout:
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/<your-org-or-user>/axonlink.git .claude/skills/axonlink
+git clone https://github.com/GX-Centry/axonlink.git .claude/skills/axonlink
 ```
 
 Claude Code should then expose the skill as:
@@ -124,7 +124,7 @@ Basic form:
 Example:
 
 ```text
-/axonlink alice@devbox "把本机已经跑通的构建和测试流程复刻到远端机器"
+/axonlink alice@devbox "Copy the build and test process that has already run successfully on the local machine to the remote machine."
 ```
 
 Another example:
